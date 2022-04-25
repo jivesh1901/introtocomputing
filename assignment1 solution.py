@@ -1,0 +1,31 @@
+Python 3.10.4 (v3.10.4:9d38120e33, Mar 23 2022, 17:29:05) [Clang 13.0.0 (clang-1300.0.29.30)] on darwin
+Type "help", "copyright", "credits" or "license()" for more information.
+
+============== RESTART: /Users/jiveshkumar/Desktop/assignment1.py ==============
+QUESTION 1 :
+ENTER A NUMBER : 30
+ENTER ANOTHER NUMBER : 40
+ENTER ANOTHER NUMBER : 30
+33.333333333333336
+QUESTION 2 :
+ENTER GROSS INCOME : 1000000
+ENTER NUMBER OF DEPENDENTS : 6
+194400.0
+QUESTION 3 :
+ENTER YOUR SID : 21107110
+ENTER YOUR NAME : jivesh
+ENTER YOUR GENDER : male
+ENTER YOUR COURSE NAME : es1101
+ENTER YOUR CGPA9
+['21107110', 'jivesh', 'male', 'es1101', 9.0]
+QUESTION 4 :
+ENTER MARKS OF FIRST STUDENT 69
+ENTER MARKS OF SECOND STUDENT 96
+ENTER MARKS OF THIRD STUDENT100
+ENTER MARKS OF FOURTH STUDENT 70
+ENTER MARKS OF FIFTH STUDENT59
+[59, 69, 70, 96, 100]
+QUESTION 5 :
+['Red', 'Green', 'White', 'Pink', 'Yellow']
+PART B 
+['Red', 'Green', 'White', 'Purple', 'Yellow']
