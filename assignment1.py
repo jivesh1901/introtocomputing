@@ -15,42 +15,21 @@ taxable_inc = gross_income - 10000 - 3000*dependents
 Tax = taxable_inc*0.2
 print(Tax)
 
+#ques 3
+
+#taking input of seconds as s
+s=int(input("Number of Seconds: "))
+#converting the seconds to minutes
+minutes= s//60
+seconds= s%60
+print(minutes, "min", seconds, "sec")
 
 
-print("QUESTION 3 :")
-sid = input("ENTER YOUR SID : ")
-name = input("ENTER YOUR NAME : ")
-gender = input("ENTER YOUR GENDER : ")
-course_name = input("ENTER YOUR COURSE NAME : ")
-'''SID, Name, Gender, Course_name in student'''
-CGPA = float(input("ENTER YOUR CGPA"))
-student = []
-student.append(sid)
-student.append(name)
-student.append(gender)
-student.append(course_name)
-student.append(CGPA)
-print(student)
+# ques 4
+print(str(25 + int('25') + int(25.0)))
 
-
-
-print("QUESTION 4 :")
-x = int(input("ENTER MARKS OF FIRST STUDENT " ))
-y = int(input("ENTER MARKS OF SECOND STUDENT "))
-z = int(input("ENTER MARKS OF THIRD STUDENT"))
-v = int(input("ENTER MARKS OF FOURTH STUDENT "))
-u= int(input("ENTER MARKS OF FIFTH STUDENT"))
-marks = [x,y,z,v,u]
-marks.sort()
-print(marks)
-
-
-
-print("QUESTION 5 :")
-Color = ["Red","Green","White","Black","Pink","Yellow"]
-Color.pop(3)
-print(Color)
-print("PART B ")
-Color = ["Red","Green","White","Black","Pink","Yellow"]
-Color[3:5] = ["Purple"]
-print(Color)
+import math
+#we will use while loop here
+for x in range(0,360,15)
+     print(x , '--',round(math.sin(x*3.1415/180),4) ,round(math.cos(x*3.1415/180),4),end=" " '\n') 
+     x+=15
