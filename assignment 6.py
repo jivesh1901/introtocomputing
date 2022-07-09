@@ -1,8 +1,3 @@
-#Assignment 6
-#Name: Navodit Gupta
-#SID : 21107082
-#Branch: Mechanical
-
 print("Q1")
 def perfect_number(n):
     sum = 0
